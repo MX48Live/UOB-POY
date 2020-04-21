@@ -1,0 +1,91 @@
+// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500'); 
+// @import url('https://fonts.googleapis.com/css?family=Kanit:300,400,500');
+
+@font-face {
+    font-family: 'Kittithada';
+    src: url('../fonts/KittithadaBold75.eot');
+    src: url('../fonts/KittithadaBold75?#iefix') format('embedded-opentype'),
+         url('../fonts/KittithadaBold75.woff') format('woff'),
+         url('../fonts/KittithadaBold75.ttf') format('truetype');
+    font-weight: 500;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Kittithada';
+    src: url('../fonts/KittithadaMedium65.eot');
+    src: url('../fonts/KittithadaMedium65?#iefix') format('embedded-opentype'),
+         url('../fonts/KittithadaMedium65.woff') format('woff'),
+         url('../fonts/KittithadaMedium65.ttf') format('truetype');
+    font-weight: 400;
+    font-style: medium;
+}
+@font-face { 
+    font-family: 'Kittithada';
+    src: url('../fonts/KittithadaRoman55.eot');
+    src: url('../fonts/KittithadaRoman55?#iefix') format('embedded-opentype'),
+         url('../fonts/KittithadaRoman55.woff') format('woff'),
+         url('../fonts/KittithadaRoman55.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Kittithada',  Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 0.8em;
+}
+a {
+    text-decoration: none;
+}
+p, li, input, textarea, label, a, button {
+    font-family: 'Kittithada',  Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-weight: 300;
+    font-size: 2.3em;
+    line-height: 1em;
+}
+
+
+.title {
+    font-weight: 400;
+}
+
+strong {
+    font-size: 1em !important;
+}
+
+body {
+    font-size: 8px;
+}
+
+// p, li, input, textarea, label, a, button {
+//     font-size: 14px;
+// }
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 9px;
+    }
+
+    // p, li, input, textarea, label, a, button {
+    //     font-size: 15px;
+    // }
+}
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 10px;
+    } 
+    // p, li, input, textarea, label, a, button {
+    //     font-size: 2.2em;
+    //     line-height: 1em;
+    // }
+}
